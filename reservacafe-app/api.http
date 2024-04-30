@@ -1,0 +1,10 @@
+### GET request to example server
+GET https://examples.http-client.intellij.net/get
+    ?generated-in=PhpStorm
+
+###
+// The request body is provided in place
+POST http://localhost:8000/usuario HTTP/1.1
+Content-Type: application/json
+
+{ "username" : "value", "password": "s" }
